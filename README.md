@@ -1,6 +1,6 @@
 # Skill AdvOS para mentorados
 
-Versão 0.1.1 — 2026-09-23. Pacote genérico para configurar, testar e depurar o AdvOS no **próprio escritório**. Não inclui acesso ao AdvOS, credenciais, dados de clientes ou configuração de outra organização.
+Versão 0.1.2 — 2026-09-23. Pacote genérico para configurar, testar e depurar o AdvOS no **próprio escritório**. Não inclui acesso ao AdvOS, credenciais, dados de clientes ou configuração de outra organização.
 
 ## Instalação
 
