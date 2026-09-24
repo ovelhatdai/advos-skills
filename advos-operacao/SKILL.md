@@ -5,7 +5,7 @@ description: Investigar, configurar e testar o AdvOS com computer use, conferind
 
 # AdvOS: operação e diagnóstico
 
-Versão: 0.1.1 (2026-09-23). Esta skill é um roteiro de investigação, não uma descrição garantida da versão atual do produto. Confira a interface e as permissões reais a cada uso.
+Versão: 0.1.2 (2026-09-23). Esta skill é um roteiro de investigação, não uma descrição garantida da versão atual do produto. Confira a interface e as permissões reais a cada uso.
 
 ## Comece pelo pedido
 
@@ -45,14 +45,16 @@ Um contador de campanha, um aviso de “salvo”, HTTP 200 ou um identificador d
 2. Compare o horário e o tipo da última entrada com a última resposta. Distinga texto, imagem, áudio e documento.
 3. Confira se a conversa foi assumida por humano, se o agente está habilitado e se o canal está ligado à caixa correta.
 4. Se aparecer um encaminhamento com gatilho “Palavra-chave”, leia o **motivo** antes de concluir que o cliente pediu uma pessoa. Um limite diário de IA pode gerar um encaminhamento técnico com esse rótulo em versões anteriores. Confira o limite atual e, se a interface mostrar, o uso antes de devolver a conversa ao agente. Preserve encaminhamentos de segurança ou pedidos humanos reais para análise da equipe.
-5. Use o diagnóstico que o AdvOS expuser para correlacionar entrada, tratamento de mídia, disparo do agente, tentativa de envio e recibo. Anote apenas IDs técnicos necessários, sem conteúdo sensível.
-6. Reproduza em contato de teste autorizado. Não use uma conversa real de cliente como experimento descartável.
-7. Relate fato observado, causa comprovada ou hipótese em campos separados. Se uma hipótese não foi verificada, deixe-a como pendência.
+5. Num bloqueio de segurança, confira a regra acionada e o texto retido apenas na área privada autorizada. Uma abertura comum como “Ótimo” pode ser um falso positivo de uma expressão regular ampla. Se confirmar, corrija a regra específica com teste de regressão e mantenha as demais proteções; não publique o texto do cliente nem devolva automaticamente o caso à IA antes da correção estar implantada.
+6. Use o diagnóstico que o AdvOS expuser para correlacionar entrada, tratamento de mídia, disparo do agente, tentativa de envio e recibo. Anote apenas IDs técnicos necessários, sem conteúdo sensível.
+7. Reproduza em contato de teste autorizado. Não use uma conversa real de cliente como experimento descartável.
+8. Relate fato observado, causa comprovada ou hipótese em campos separados. Se uma hipótese não foi verificada, deixe-a como pendência.
 
 ## Acompanhamento e retorno ao agente
 
 - Confira o alcance de cada opção antes de ligá-la. Um controle da organização pode afetar todos os canais; um controle por agente, quando disponível, deve ser conferido no agente padrão da caixa desejada.
 - Uma conversa devolvida ao agente pode voltar a exibir “IA ativa”, mas isso não envia automaticamente uma nova resposta. Para comprovar o atendimento, observe uma nova entrada, a resposta e a entrega no número de teste.
+- Uma primeira resposta entregue demonstra somente o início da conversa. Verifique em turnos separados a coleta de dados e documentos, a concordância para repasse e o recebimento efetivo pelo responsável.
 - Fora da janela de atendimento do WhatsApp, o acompanhamento pode depender de modelo de mensagem aprovado e consentimento. Não prometa envio enquanto esses requisitos não forem verificados.
 
 ## Acesso e privacidade

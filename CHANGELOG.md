@@ -1,5 +1,10 @@
 # Histórico de versões
 
+## 0.1.2 — 2026-09-23
+
+- Acrescentada investigação de bloqueios de segurança por falso positivo: ler o motivo e o texto retido em área privada, corrigir a regra específica com teste e manter as outras proteções.
+- Esclarecido que uma primeira resposta entregue não comprova coleta completa de documentos ou repasse ao vendedor.
+
 ## 0.1.1 — 2026-09-23
 
 - Acrescentada investigação de encaminhamentos por limite diário da IA, distinguindo motivo técnico de pedido humano ou bloqueio de segurança.
