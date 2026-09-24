@@ -1,5 +1,10 @@
 # Histórico de versões
 
+## 0.1.3 — 2026-09-23
+
+- Esclarecido que um agente padrão pode atender vários canais: acompanhamento por agente pode alcançar todos eles.
+- Acrescentada verificação do controle por canal, releitura após salvar e prova real de envio e entrega dentro da janela permitida.
+
 ## 0.1.2 — 2026-09-23
 
 - Acrescentada investigação de bloqueios de segurança por falso positivo: ler o motivo e o texto retido em área privada, corrigir a regra específica com teste e manter as outras proteções.

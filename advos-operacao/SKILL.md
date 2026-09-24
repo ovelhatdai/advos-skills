@@ -5,7 +5,7 @@ description: Investigar, configurar e testar o AdvOS com computer use, conferind
 
 # AdvOS: operação e diagnóstico
 
-Versão: 0.1.2 (2026-09-23). Esta skill é um roteiro de investigação, não uma descrição garantida da versão atual do produto. Confira a interface e as permissões reais a cada uso.
+Versão: 0.1.3 (2026-09-23). Esta skill é um roteiro de investigação, não uma descrição garantida da versão atual do produto. Confira a interface e as permissões reais a cada uso.
 
 ## Comece pelo pedido
 
@@ -52,7 +52,8 @@ Um contador de campanha, um aviso de “salvo”, HTTP 200 ou um identificador d
 
 ## Acompanhamento e retorno ao agente
 
-- Confira o alcance de cada opção antes de ligá-la. Um controle da organização pode afetar todos os canais; um controle por agente, quando disponível, deve ser conferido no agente padrão da caixa desejada.
+- Confira o alcance de cada opção antes de ligá-la. Um controle da organização pode afetar todos os canais. O mesmo agente também pode ser padrão em mais de uma caixa ou número: nesse caso, um controle apenas por agente alcança todos os vínculos. Localize a opção do canal específico antes de ativar o acompanhamento e, após salvar, recarregue a página para confirmar que o canal desejado ficou ligado e os demais mantiveram o estado anterior.
+- Confira a janela de horário, o tempo mínimo sem resposta, as regras de opt-out e os encaminhamentos humanos antes de esperar um disparo. Um switch salvo demonstra configuração; a prova do acompanhamento exige mensagem elegível enviada e entregue pelo número correto.
 - Uma conversa devolvida ao agente pode voltar a exibir “IA ativa”, mas isso não envia automaticamente uma nova resposta. Para comprovar o atendimento, observe uma nova entrada, a resposta e a entrega no número de teste.
 - Uma primeira resposta entregue demonstra somente o início da conversa. Verifique em turnos separados a coleta de dados e documentos, a concordância para repasse e o recebimento efetivo pelo responsável.
 - Fora da janela de atendimento do WhatsApp, o acompanhamento pode depender de modelo de mensagem aprovado e consentimento. Não prometa envio enquanto esses requisitos não forem verificados.
