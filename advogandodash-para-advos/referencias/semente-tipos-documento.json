@@ -1,0 +1,1616 @@
+{
+ "versao": "2026-09-30",
+ "origem": "Decisões da migração de um escritório previdenciário (setembro de 2026). Só rótulos genéricos, digitados pela equipe no campo 'tipo de documento' do AdvogandoDash; rótulos com nome de pessoa foram retirados.",
+ "como_usar": "Precedente, não regra. 'alta': o rótulo diz o que o documento é. 'abrir o documento': o rótulo é genérico e o significado muda de escritório para escritório; abrir um documento com esse rótulo antes de decidir. Rótulo que não está aqui vai para a fila de decisão.",
+ "opcoes_advos": {
+  "identity": "Documento de identificação (RG, CNH, CPF, CTPS)",
+  "medical_report": "Laudo, relatório ou documento médico",
+  "proof_of_address": "Comprovante de residência",
+  "court_document": "Documento judicial (petição, decisão, sentença)",
+  "contract": "Contrato (ex.: contrato de honorários)",
+  "letter": "Carta ou ofício (ex.: comunicação do INSS)",
+  "power_of_attorney": "Procuração",
+  "other": "Outro documento"
+ },
+ "rotulos": [
+  {
+   "rotulo": "adm",
+   "chave": "adm",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "adm inss",
+   "chave": "adm inss",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "Agendamento pericia medica INSS",
+   "chave": "agendamento pericia medica inss",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "agricultura",
+   "chave": "agricultura",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "analise inss",
+   "chave": "analise inss",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "ANEXO",
+   "chave": "anexo",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "ANEXO INSS",
+   "chave": "anexo inss",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "ASSINADO",
+   "chave": "assinado",
+   "tipo": "contract",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "atestado",
+   "chave": "atestado",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "ATESTADO DE INTERNAÇÃO",
+   "chave": "atestado de internacao",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "atestado médico",
+   "chave": "atestado medico",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "ATUALIZADO",
+   "chave": "atualizado",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "AVALIAÇÃO INSS",
+   "chave": "avaliacao inss",
+   "tipo": "medical_report",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "beneficio",
+   "chave": "beneficio",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "Biometria",
+   "chave": "biometria",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "boleto",
+   "chave": "boleto",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Boleto de cobrança",
+   "chave": "boleto de cobranca",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CAD",
+   "chave": "cad",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "cad unico",
+   "chave": "cad unico",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CADASTRO RURAL",
+   "chave": "cadastro rural",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Cadastro Único",
+   "chave": "cadastro unico",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CADASTRO ÚNICO ATUALIZADO",
+   "chave": "cadastro unico atualizado",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CADUNICO",
+   "chave": "cadunico",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CadÚnico atualizado",
+   "chave": "cadunico atualizado",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CADÚNICO E DOC",
+   "chave": "cadunico e doc",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "calculo",
+   "chave": "calculo",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "calculo do valor da causa",
+   "chave": "calculo do valor da causa",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "calculo incial",
+   "chave": "calculo incial",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Calculo Inicial",
+   "chave": "calculo inicial",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "cálculo valor da causa",
+   "chave": "calculo valor da causa",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Calculos",
+   "chave": "calculos",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "CARTA DE BENEFICIO",
+   "chave": "carta de beneficio",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "carta de carcere",
+   "chave": "carta de carcere",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CARTA DE CONCESSÃO",
+   "chave": "carta de concessao",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CARTA NEGATIVA",
+   "chave": "carta negativa",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "carteira de trabalho",
+   "chave": "carteira de trabalho",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CASA",
+   "chave": "casa",
+   "tipo": "proof_of_address",
+   "confianca": "abrir o documento",
+   "nota": "a sugestão automática aplicou comprovante de residência; se for foto, é 'other'"
+  },
+  {
+   "rotulo": "casamento",
+   "chave": "casamento",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "certidao",
+   "chave": "certidao",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "certidao carceraria",
+   "chave": "certidao carceraria",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "certidao carcere",
+   "chave": "certidao carcere",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "certidão casamento",
+   "chave": "certidao casamento",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "certidão de cárcere",
+   "chave": "certidao de carcere",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Certidão de Casamento",
+   "chave": "certidao de casamento",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CERTIDÃO DE NASCIMENTO",
+   "chave": "certidao de nascimento",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Certidão de óbito",
+   "chave": "certidao de obito",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Certidao Eleitoral",
+   "chave": "certidao eleitoral",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CERTIDAO NASCIMENTO",
+   "chave": "certidao nascimento",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CNis",
+   "chave": "cnis",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CNIS - Extrato de Contribuições",
+   "chave": "cnis - extrato de contribuicoes",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMP",
+   "chave": "comp",
+   "tipo": "other",
+   "confianca": "abrir o documento",
+   "nota": "no escritório de referência era o comprovante de protocolo do requerimento no INSS, não comprovante de residência"
+  },
+  {
+   "rotulo": "COMP AGENDAMENTO",
+   "chave": "comp agendamento",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMP CADUNICO",
+   "chave": "comp cadunico",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMP DE AGENDAMENTO",
+   "chave": "comp de agendamento",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMP GASTOS",
+   "chave": "comp gastos",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMP. PERICIA",
+   "chave": "comp. pericia",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMPROVANTE",
+   "chave": "comprovante",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "comprovante adm",
+   "chave": "comprovante adm",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "comprovante avaliação",
+   "chave": "comprovante avaliacao",
+   "tipo": "medical_report",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "COMPROVANTE BIOMETRIA",
+   "chave": "comprovante biometria",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "comprovante biometrico",
+   "chave": "comprovante biometrico",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMPROVANTE BIOMÉTRICO MÃE",
+   "chave": "comprovante biometrico mae",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMPROVANTE CADASTRO UNICO",
+   "chave": "comprovante cadastro unico",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMPROVANTE CADUNICO",
+   "chave": "comprovante cadunico",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Comprovante de acidente",
+   "chave": "comprovante de acidente",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Comprovante de agendamento INSS",
+   "chave": "comprovante de agendamento inss",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Comprovante de biometria",
+   "chave": "comprovante de biometria",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Comprovante de Biometria Eleitoral",
+   "chave": "comprovante de biometria eleitoral",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Comprovante de cadastro",
+   "chave": "comprovante de cadastro",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "Comprovante de gastos",
+   "chave": "comprovante de gastos",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMPROVANTE DE PEDIDO",
+   "chave": "comprovante de pedido",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "comprovante de renda",
+   "chave": "comprovante de renda",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Comprovante de Residência",
+   "chave": "comprovante de residencia",
+   "tipo": "proof_of_address",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMPROVANTE DO CADASTRO ÚNICO",
+   "chave": "comprovante do cadastro unico",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMPROVANTE E DECLARAÇÃO DE RESID.",
+   "chave": "comprovante e declaracao de resid.",
+   "tipo": "proof_of_address",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "COMPROVANTE  INSS",
+   "chave": "comprovante inss",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "comprovante pericia",
+   "chave": "comprovante pericia",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "comprovante rural",
+   "chave": "comprovante rural",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Comprovante_gastos",
+   "chave": "comprovante_gastos",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "comprovantes",
+   "chave": "comprovantes",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "comprovantes gastos",
+   "chave": "comprovantes gastos",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CONTRATO",
+   "chave": "contrato",
+   "tipo": "contract",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CONTRATO ASSINADO",
+   "chave": "contrato assinado",
+   "tipo": "contract",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Contrato de Honorários",
+   "chave": "contrato de honorarios",
+   "tipo": "contract",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "contribuições",
+   "chave": "contribuicoes",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "ctps",
+   "chave": "ctps",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CTPS DA MAE",
+   "chave": "ctps da mae",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "CTPS DO FILHO",
+   "chave": "ctps do filho",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DECLARAÇÃO",
+   "chave": "declaracao",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "declaração assinada",
+   "chave": "declaracao assinada",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "Declaração Carcerária",
+   "chave": "declaracao carceraria",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "declaração da residencia",
+   "chave": "declaracao da residencia",
+   "tipo": "proof_of_address",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Declaração de Benefícios",
+   "chave": "declaracao de beneficios",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Declaração de Benefícios INSS",
+   "chave": "declaracao de beneficios inss",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Declaracao de composicao familiar",
+   "chave": "declaracao de composicao familiar",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "declaração de gastos",
+   "chave": "declaracao de gastos",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "declaração de hipo",
+   "chave": "declaracao de hipo",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DECLARAÇÃO DE HIPO.",
+   "chave": "declaracao de hipo.",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DECLARAÇÃO DE HIPOSSUFICIÊNCIA",
+   "chave": "declaracao de hipossuficiencia",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DECLARAÇÃO DE INTERNAÇÃO",
+   "chave": "declaracao de internacao",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DECLARAÇÃO DE RESID",
+   "chave": "declaracao de resid",
+   "tipo": "proof_of_address",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DECLARAÇÃO DE RESID.",
+   "chave": "declaracao de resid.",
+   "tipo": "proof_of_address",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "declaracao de residencia",
+   "chave": "declaracao de residencia",
+   "tipo": "proof_of_address",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Declaração de trabalho",
+   "chave": "declaracao de trabalho",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DECLARAÇÃO DO BENEFÍCIO",
+   "chave": "declaracao do beneficio",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DECLARAÇÃO E PROCURAÇÃO",
+   "chave": "declaracao e procuracao",
+   "tipo": "power_of_attorney",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DECLARACAO HIPO",
+   "chave": "declaracao hipo",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "declaracao hipo e renuncia",
+   "chave": "declaracao hipo e renuncia",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DECLARAÇÃO HIPOSSUFICIÊNCIA",
+   "chave": "declaracao hipossuficiencia",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DECLARAÇÃO RESIDENCIA",
+   "chave": "declaracao residencia",
+   "tipo": "proof_of_address",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DECLARAÇÃO RURAL",
+   "chave": "declaracao rural",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "deficiencia do cliente",
+   "chave": "deficiencia do cliente",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DO FILHO",
+   "chave": "do filho",
+   "tipo": "identity",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "DOC",
+   "chave": "doc",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "DOC DA MAE",
+   "chave": "doc da mae",
+   "tipo": "identity",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "doc da prisaõ do pai",
+   "chave": "doc da prisao do pai",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "DOC DE CARCERE",
+   "chave": "doc de carcere",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "doc medico",
+   "chave": "doc medico",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DOC RURAL",
+   "chave": "doc rural",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "doc rural contrato",
+   "chave": "doc rural contrato",
+   "tipo": "contract",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DOCS",
+   "chave": "docs",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "Docs da familia",
+   "chave": "docs da familia",
+   "tipo": "identity",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "DOCUMENTAÇÃO ASSINADA",
+   "chave": "documentacao assinada",
+   "tipo": "power_of_attorney",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "DOCUMENTAÇÃO MÉDICA",
+   "chave": "documentacao medica",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "DOCUMENTAÇÃO RURAL",
+   "chave": "documentacao rural",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Documento de Identificação",
+   "chave": "documento de identificacao",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "documentos da prisão do pai",
+   "chave": "documentos da prisao do pai",
+   "tipo": "court_document",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "Documentos de Identificacao",
+   "chave": "documentos de identificacao",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "documentos do INSS",
+   "chave": "documentos do inss",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Documentos Médicos",
+   "chave": "documentos medicos",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Documentos rurais",
+   "chave": "documentos rurais",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "documentos testemunhas",
+   "chave": "documentos testemunhas",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "eleitoral",
+   "chave": "eleitoral",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "EM ANALISE INSS",
+   "chave": "em analise inss",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "EXAME",
+   "chave": "exame",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Exame Médico",
+   "chave": "exame medico",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "exames",
+   "chave": "exames",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "extrato",
+   "chave": "extrato",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "EXTRATO BENEFICIO",
+   "chave": "extrato beneficio",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Extrato CAD",
+   "chave": "extrato cad",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "extrato cadunico",
+   "chave": "extrato cadunico",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "EXTRATO CNIS",
+   "chave": "extrato cnis",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Extrato de Contribuições (CNIS)",
+   "chave": "extrato de contribuicoes (cnis)",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "FACHADA DA CASA",
+   "chave": "fachada da casa",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "ficha",
+   "chave": "ficha",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "FICHA CAD",
+   "chave": "ficha cad",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "FICHA CADASTRO UNICO",
+   "chave": "ficha cadastro unico",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "ficha de cadastro",
+   "chave": "ficha de cadastro",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "Formulário Composição Renda Familiar",
+   "chave": "formulario composicao renda familiar",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "FORMULÁRIO PARA ENVIAR",
+   "chave": "formulario para enviar",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "foto",
+   "chave": "foto",
+   "tipo": "identity",
+   "confianca": "abrir o documento",
+   "nota": "a sugestão automática aplicou identidade; conferir se é foto de documento"
+  },
+  {
+   "rotulo": "FOTO FACHADA DA CASA",
+   "chave": "foto fachada da casa",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "fotos",
+   "chave": "fotos",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "fotos da casa",
+   "chave": "fotos da casa",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "FOTOS DA RESIDÊNCIA",
+   "chave": "fotos da residencia",
+   "tipo": "other",
+   "confianca": "alta",
+   "nota": "foto não é comprovante de endereço; a sugestão automática dizia comprovante de residência"
+  },
+  {
+   "rotulo": "GASTOS",
+   "chave": "gastos",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "HIPOSSUFICIENCIA",
+   "chave": "hipossuficiencia",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "honorarios",
+   "chave": "honorarios",
+   "tipo": "contract",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "IMPUGNAÇÃO",
+   "chave": "impugnacao",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Impugnação ao laudo",
+   "chave": "impugnacao ao laudo",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Impugnação do laudo",
+   "chave": "impugnacao do laudo",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "IMPUGNAÇÃO E RÉPLICA",
+   "chave": "impugnacao e replica",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Inicial",
+   "chave": "inicial",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "INSS",
+   "chave": "inss",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "INSS EM ANALISE",
+   "chave": "inss em analise",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "INSS]",
+   "chave": "inss]",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "LAUDO",
+   "chave": "laudo",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Laudo de Perícia",
+   "chave": "laudo de pericia",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "LAUDO INSS",
+   "chave": "laudo inss",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "LAUDO JUDICIAL",
+   "chave": "laudo judicial",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Laudo Médico",
+   "chave": "laudo medico",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "laudos do INSS",
+   "chave": "laudos do inss",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "laudos e receitas",
+   "chave": "laudos e receitas",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Manifestação",
+   "chave": "manifestacao",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Manifestação ao laudo",
+   "chave": "manifestacao ao laudo",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Manifestação de laudo",
+   "chave": "manifestacao de laudo",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Manifestação de laudo e Réplica",
+   "chave": "manifestacao de laudo e replica",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "MANIFESTAÇÃO DE LAUDOS",
+   "chave": "manifestacao de laudos",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Manifestação do laudo",
+   "chave": "manifestacao do laudo",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "negativa",
+   "chave": "negativa",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "negativa 2",
+   "chave": "negativa 2",
+   "tipo": "letter",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "negativa adm",
+   "chave": "negativa adm",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "negativa adm inss",
+   "chave": "negativa adm inss",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "NEGATIVA DO INSS",
+   "chave": "negativa do inss",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "negativa do laudo da pericia",
+   "chave": "negativa do laudo da pericia",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "NEGATIVA DO PROCESSO",
+   "chave": "negativa do processo",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "negativa inss",
+   "chave": "negativa inss",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "negativa inss adm",
+   "chave": "negativa inss adm",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "negativa processo adm",
+   "chave": "negativa processo adm",
+   "tipo": "letter",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Outros",
+   "chave": "outros",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "Outros adm",
+   "chave": "outros adm",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "PARA ENVIAR AO CLIENTE",
+   "chave": "para enviar ao cliente",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "PERICIA",
+   "chave": "pericia",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "pericia do inss",
+   "chave": "pericia do inss",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "PERÍCIA FILHO",
+   "chave": "pericia filho",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Petição",
+   "chave": "peticao",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Petição Inicial",
+   "chave": "peticao inicial",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Petição Inicial Auxílio por Incapacidade",
+   "chave": "peticao inicial auxilio por incapacidade",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Petição INSS",
+   "chave": "peticao inss",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "peticao_inicial",
+   "chave": "peticao_inicial",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "PROCESSO",
+   "chave": "processo",
+   "tipo": "court_document",
+   "confianca": "abrir o documento",
+   "nota": "no escritório de referência eram cópias de processo judicial; pode ser processo administrativo (INSS)"
+  },
+  {
+   "rotulo": "processo 1",
+   "chave": "processo 1",
+   "tipo": "court_document",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "processo 2",
+   "chave": "processo 2",
+   "tipo": "court_document",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "PROCESSO A",
+   "chave": "processo a",
+   "tipo": "court_document",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "processo adm",
+   "chave": "processo adm",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "processo adm,",
+   "chave": "processo adm,",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Processo Administrativo",
+   "chave": "processo administrativo",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Processo Administrativo - Auxílio-Acidente",
+   "chave": "processo administrativo - auxilio-acidente",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Processo Administrativo do INSS",
+   "chave": "processo administrativo do inss",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Processo Administrativo INSS",
+   "chave": "processo administrativo inss",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "processo inss",
+   "chave": "processo inss",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "PROCESSO JUD",
+   "chave": "processo jud",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Processo  Judicial",
+   "chave": "processo judicial",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "processo que recebeu o beneficio",
+   "chave": "processo que recebeu o beneficio",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "Processo/Negativa",
+   "chave": "processo/negativa",
+   "tipo": "letter",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "Procuração",
+   "chave": "procuracao",
+   "tipo": "power_of_attorney",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "PROCURAÇÃO ASSINADA",
+   "chave": "procuracao assinada",
+   "tipo": "power_of_attorney",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Procuracao e Contrato",
+   "chave": "procuracao e contrato",
+   "tipo": "power_of_attorney",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "PROCURAÇÃO E DECLARAÇÃO",
+   "chave": "procuracao e declaracao",
+   "tipo": "power_of_attorney",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "PROCURAÇÃO E DECLARAÇÃO DE HIPOSSUFICIÊNCIA",
+   "chave": "procuracao e declaracao de hipossuficiencia",
+   "tipo": "power_of_attorney",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "PROCURAÇÃO, DECLARAÇÃO E CONTRATO.",
+   "chave": "procuracao, declaracao e contrato.",
+   "tipo": "power_of_attorney",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Protocolo INSS",
+   "chave": "protocolo inss",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "prova do acidente/incapacidade",
+   "chave": "prova do acidente/incapacidade",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "quitação eleitoral",
+   "chave": "quitacao eleitoral",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "RAIO X",
+   "chave": "raio x",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Raio-x",
+   "chave": "raio-x",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Receita",
+   "chave": "receita",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "RECEITA MEDICA",
+   "chave": "receita medica",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "receitas",
+   "chave": "receitas",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Receitas medicas",
+   "chave": "receitas medicas",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Receituario",
+   "chave": "receituario",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "RECEITUARIO MÉDICO",
+   "chave": "receituario medico",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "registro",
+   "chave": "registro",
+   "tipo": "identity",
+   "confianca": "abrir o documento",
+   "nota": "no escritório de referência era título de eleitor"
+  },
+  {
+   "rotulo": "RELATORIO",
+   "chave": "relatorio",
+   "tipo": "medical_report",
+   "confianca": "abrir o documento",
+   "nota": "no escritório de referência eram relatórios médicos; em outro escritório pode ser relatório social ou do INSS"
+  },
+  {
+   "rotulo": "relatório adm",
+   "chave": "relatorio adm",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "Relatório de Perícia",
+   "chave": "relatorio de pericia",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Relatorio Escolar",
+   "chave": "relatorio escolar",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "relatorio medico",
+   "chave": "relatorio medico",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "relatório tarefa",
+   "chave": "relatorio tarefa",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "renuncia",
+   "chave": "renuncia",
+   "tipo": "power_of_attorney",
+   "confianca": "abrir o documento",
+   "nota": "misto no escritório de referência: renúncia de mandato (procuração) ou termo de renúncia aos 60 salários mínimos (peça judicial)"
+  },
+  {
+   "rotulo": "renuncia assinada",
+   "chave": "renuncia assinada",
+   "tipo": "court_document",
+   "confianca": "abrir o documento",
+   "nota": "misto no escritório de referência: renúncia de mandato (procuração) ou termo de renúncia aos 60 salários mínimos (peça judicial)"
+  },
+  {
+   "rotulo": "RÉPLICA",
+   "chave": "replica",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "RESIDENCIA",
+   "chave": "residencia",
+   "tipo": "proof_of_address",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "RESULTADO DA PERICIA",
+   "chave": "resultado da pericia",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Resultado de pericia",
+   "chave": "resultado de pericia",
+   "tipo": "medical_report",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Resumo",
+   "chave": "resumo",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "RURAL",
+   "chave": "rural",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Sentença",
+   "chave": "sentenca",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "Sentença.",
+   "chave": "sentenca.",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "TAREFA",
+   "chave": "tarefa",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "termo",
+   "chave": "termo",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "TERMO DE RENUNCIA",
+   "chave": "termo de renuncia",
+   "tipo": "court_document",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "TESTEMUNHA",
+   "chave": "testemunha",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "testemunha 1",
+   "chave": "testemunha 1",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "testemunha 2",
+   "chave": "testemunha 2",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "testemunha 3",
+   "chave": "testemunha 3",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "titulo",
+   "chave": "titulo",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "Título Eleitoral",
+   "chave": "titulo eleitoral",
+   "tipo": "identity",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "tramitação",
+   "chave": "tramitacao",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "VIDEO",
+   "chave": "video",
+   "tipo": "other",
+   "confianca": "abrir o documento"
+  },
+  {
+   "rotulo": "video casa",
+   "chave": "video casa",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "VIDEO TESTEMUNHA",
+   "chave": "video testemunha",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "VÍDEO TESTEMUNHA 1",
+   "chave": "video testemunha 1",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "VÍDEO TESTEMUNHA 2",
+   "chave": "video testemunha 2",
+   "tipo": "other",
+   "confianca": "alta"
+  },
+  {
+   "rotulo": "VÍDEO TESTEMUNHA 3",
+   "chave": "video testemunha 3",
+   "tipo": "other",
+   "confianca": "alta"
+  }
+ ]
+}

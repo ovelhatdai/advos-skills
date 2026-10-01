@@ -1,5 +1,16 @@
 # Histórico de versões
 
+## advogandodash-para-advos 0.1.0 — 2026-10-01 (pré-lançamento)
+
+- Primeira versão da skill de migração do AdvogandoDash para o AdvOS. Traz:
+  - procedimento em fases, com portões de aprovação;
+  - guia da responsável;
+  - armadilhas e mapeamento campo a campo;
+  - semente de 265 tipos de documento;
+  - kit de scripts testado offline.
+- Funciona só depois que a equipe Advogando libera o escritório no MCP do AdvogandoDash e emite a credencial de importação no AdvOS.
+- Contratos e financeiro ainda não migram: viram pendência. O kit roda só no macOS.
+
 ## 0.1.3 — 2026-09-23
 
 - Esclarecido que um agente padrão pode atender vários canais: acompanhamento por agente pode alcançar todos eles.
